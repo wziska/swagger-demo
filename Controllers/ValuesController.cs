@@ -28,6 +28,13 @@ namespace TodoApi.Controllers
         }
 
         // POST api/values
+        /// <summary>
+        /// Short, descriptive title of the operation
+        /// </summary>
+        /// <remarks>
+        /// More elaborate description
+        /// </remarks>
+        /// <param name="value">Here is the description for value.</param>
         [HttpPost]
         public void Post([FromBody] string value)
         {
